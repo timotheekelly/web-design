@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+#sideMenu a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    height: 40px;
+    width: 130px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#sideMenu a:hover {
+    left: 0;
+}
+
+.button {
+    background-color: grey;
+}
+
+#Home {
+    top: 10%;
+}
+
+#Article1 {
+    top: 30%;
+}
+
+#Article2 {
+    top: 50%;
+}
+
+#Article3 {
+    top: 70%;
+}
